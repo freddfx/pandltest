@@ -1,4 +1,4 @@
-www.arbys.com/menu/meals/crispy-fish-sandwich-meal/
-www.arbys.com/menu/meals/greek-gyro-meal/
-www.laughfactory.com/jokes/blonde-jokes/
+*.arbys.com/menu/meals/crispy-fish-sandwich-meal/
+*.arbys.com/menu/meals/greek-gyro-meal/
+*.laughfactory.com/jokes/blonde-jokes/
 dvwa.co.uk/
