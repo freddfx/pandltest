@@ -2,3 +2,4 @@
 *.arbys.com/menu/meals/greek-gyro-meal/
 *.laughfactory.com/jokes/blonde-jokes/
 dvwa.co.uk/
+*.arbys.com/*
