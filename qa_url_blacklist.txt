@@ -3,3 +3,4 @@
 *.laughfactory.com/jokes/blonde-jokes/
 dvwa.co.uk/
 *.arbys.com/*
+arbys.com/*
