@@ -1,6 +1,6 @@
-*.arbys.com/menu/meals/crispy-fish-sandwich-meal/
-*.arbys.com/menu/meals/greek-gyro-meal/
-*.laughfactory.com/jokes/blonde-jokes/
-dvwa.co.uk/
-*.arbys.com/
 *.arbys.com
+*.arbys.com/
+*.laughfactory.com
+*.laughfactory.com/
+*.dvwa.co.uk
+*.dvwa.co.uk/
