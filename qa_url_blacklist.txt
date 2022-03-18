@@ -1,6 +1,9 @@
+*.dvwa.co.uk
+dvwa.co.uk/
+*.dvwa.co.uk/
+arbys.com/
 *.arbys.com
 *.arbys.com/
+laughfactory.com
 *.laughfactory.com
 *.laughfactory.com/
-*.dvwa.co.uk
-*.dvwa.co.uk/
