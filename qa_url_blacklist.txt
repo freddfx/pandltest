@@ -7,5 +7,4 @@ arbys.com/
 laughfactory.com
 *.laughfactory.com
 *.laughfactory.com/
-^www.circlek.com
-^www.circlek.com/
+*.circlek.com/store-locator/
