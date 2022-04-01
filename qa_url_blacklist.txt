@@ -7,6 +7,5 @@ arbys.com/
 laughfactory.com
 *.laughfactory.com
 *.laughfactory.com/
-circlek.com
-*.circlek.com
-*.circlek.com/
+www.circlek.com
+www.circlek.com/
