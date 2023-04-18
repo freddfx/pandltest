@@ -1,0 +1,41 @@
+lutris-wrapper: Assassin's Creed
+Started initial process 86778 from /home/fredd/.local/share/lutris/runners/wine/lutris-GE-Proton/bin/wine /mnt/data/Lutris/assassins-creed/drive_c/GOG Games/Assassins Creed/AssassinsCreed_Dx9.exe
+Start monitoring process.
+fsync: up and running.
+wine: Using setpriority to control niceness in the [-10,10] range
+002c:fixme:winediag:LdrInitializeThunk wine-staging 7.0 is a testing version containing experimental patches.
+002c:fixme:winediag:LdrInitializeThunk Please mention your exact version when filing bug reports on winehq.org.
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0118:fixme:oleacc:find_class_data unhandled window class: L"Button"
+wine: configuration in L"/mnt/data/Lutris/assassins-creed" has been updated.
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0024:fixme:gameux:GameExplorerImpl_VerifyAccess (01ED8370, L"C:\\GOG Games\\Assassins Creed\\AssassinsCreed_Dx9.exe", 0032F878)
+wine: Unhandled page fault on write access to 17151311 at address 0079F5B4 (thread 0024), starting debugger...
+0174:fixme:imm:ImeSetActiveContext (0xad0030, 1): stub
+0174:fixme:imm:ImmReleaseContext (000100A4, 00AD0030): stub
+0180:fixme:imm:ImeSetActiveContext (0x4803d0, 0): stub
+0180:fixme:imm:ImmReleaseContext (0000000000040070, 00000000004803D0): stub
+0198:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0198:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+014c:fixme:imm:ImeSetActiveContext (0x4803d0, 0): stub
+014c:fixme:imm:ImmReleaseContext (0000000000020040, 00000000004803D0): stub
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"#32770"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+0168:fixme:oleacc:find_class_data unhandled window class: L"#32768"
+0168:fixme:oleacc:find_class_data unhandled window class: L"Button"
+01a0:err:ole:CoUninitialize Mismatched CoUninitialize
+Monitored process exited.
+Initial process has exited (return code: 1280)
+Exit with return code 1280

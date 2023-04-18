@@ -1,0 +1,131 @@
+Unhandled exception: page fault on write access to 0x17151311 in 32-bit code (0x0079f5b4).
+Register dump:
+ CS:0023 SS:002b DS:002b ES:002b FS:0063 GS:006b
+ EIP:0079f5b4 ESP:0032f258 EBP:0032f994 EFLAGS:00010246(  R- --  I  Z- -P- )
+ EAX:00000000 EBX:0032f9ac ECX:0f0d0b31 EDX:17151311
+ ESI:0000013d EDI:00000001
+Stack dump:
+0x0032f258:  01a15e84 01a11d38 00000000 00000002
+0x0032f268:  01ed8130 7ffc2000 00000082 0004005e
+0x0032f278:  0032f558 6ed4136d 00000000 00000009
+0x0032f288:  7ffd2000 01ed8130 0032f2b8 7bc3aa83
+0x0032f298:  0032f2c0 7ffc2000 00000003 0032f7f8
+0x0032f2a8:  0032f318 7bc5dec1 6edd9790 0399283c
+Backtrace:
+=>0 0x0079f5b4 in assassinscreed_dx9 (+0x39f5b4) (0x0032f994)
+0x0079f5b4 assassinscreed_dx9+0x39f5b4: movl	%ecx,0x0(%edx)
+Modules:
+Module	Address			Debug info	Name (41 modules)
+PE	003a0000-003fa000	Deferred        combase
+PE	00400000-01bbd000	Export          assassinscreed_dx9
+PE	020d0000-02479000	Deferred        d3dx9_36
+PE	02480000-024e5000	Deferred        dsound
+PE	024f0000-025b8000	Deferred        winmm
+PE	02ee0000-02f10000	Deferred        uxtheme
+PE	03980000-039a9000	Deferred        gameux
+PE	10000000-10031000	Deferred        eax
+PE	18000000-18038000	Deferred        binkw32
+PE	61500000-6152f000	Deferred        iphlpapi
+PE	61740000-61784000	Deferred        advapi32
+PE	61940000-619cd000	Deferred        wininet
+PE	62440000-627b0000	Deferred        d3d9
+PE	62fc0000-6304e000	Deferred        rpcrt4
+PE	63480000-6348d000	Deferred        version
+PE	63bc0000-63bda000	Deferred        shcore
+PE	64a40000-64a94000	Deferred        shlwapi
+PE	64ec0000-64ff0000	Deferred        oleaut32
+PE	651c0000-651d6000	Deferred        xinput1_3
+PE	666c0000-666cf000	Deferred        hid
+PE	66b00000-66b3e000	Deferred        win32u
+PE	67ec0000-68818000	Deferred        shell32
+PE	69540000-6958f000	Deferred        dinput8
+PE	6a040000-6a062000	Deferred        msacm32
+PE	6a280000-6a32e000	Deferred        msvcrt
+PE	6a400000-6a533000	Deferred        ole32
+PE	6bc00000-6bc2c000	Deferred        sechost
+PE	6bcc0000-6bd42000	Deferred        setupapi
+PE	6c9c0000-6ca46000	Deferred        gdi32
+PE	6cc40000-6cd9f000	Deferred        comctl32
+PE	6d780000-6d7a9000	Deferred        ws2_32
+PE	6e4c0000-6e4d6000	Deferred        dnsapi
+PE	6ed00000-6ef43000	Deferred        user32
+PE	6f480000-6f48c000	Deferred        nsi
+PE	70940000-70960000	Deferred        mpr
+PE	70b40000-70c1c000	Deferred        ucrtbase
+PE	71200000-7121c000	Deferred        imm32
+PE	7b000000-7b0ef000	Deferred        kernelbase
+PE	7b600000-7b81b000	Deferred        kernel32
+PE	7bc00000-7bca9000	Deferred        ntdll
+PE	7e080000-7e084000	Deferred        winex11
+Threads:
+process  tid      prio (all id:s are in hex)
+00000020 (D) C:\GOG Games\Assassins Creed\AssassinsCreed_Dx9.exe
+	["C:\GOG Games\Assassins Creed\AssassinsCreed_Dx9.exe"]
+	00000024    0 <==
+	00000178    0
+00000038 services.exe
+	0000003c    0
+	00000040    0
+	0000004c    0
+	0000005c    0
+	00000078    0
+	00000084    0
+	000000b8    0
+	000000d0    0
+	000000e0    0
+	000000f4    0
+00000044 winedevice.exe
+	00000048    0
+	00000054    0
+	00000058    0
+	00000060    0
+	00000064    0
+	000000dc    0
+00000070 winedevice.exe
+	00000074    0
+	0000007c    0
+	00000080    0
+	00000088    0
+	0000008c    0
+	00000090    0
+	000000a4    0
+000000b0 plugplay.exe
+	000000b4    0
+	000000bc    0
+	000000c0    0
+	000000c4    0
+000000c8 svchost.exe
+	000000cc    0
+	000000d4    0
+	000000d8    0
+000000ec rpcss.exe
+	000000f0    0
+	000000f8    0
+	000000fc    0
+	00000100    0
+	00000104    0
+	0000015c    0
+	0000018c    0
+00000148 explorer.exe
+	0000014c    0
+	00000150    0
+	00000154    0
+	00000158    0
+00000160 tabtip.exe
+	00000164    0
+	00000168    0
+	0000016c    0
+0000017c explorer.exe
+	00000180    0
+	00000184    0
+	00000188    0
+00000190 tabtip.exe
+	00000194    0
+	00000198    0
+	0000019c    0
+System information:
+    Wine build: wine-7.0 (Staging)
+    Platform: i386 (WOW64)
+    Version: Windows 10
+    Host system: Linux
+    Host version: 6.2.11-zen1-1-zen
